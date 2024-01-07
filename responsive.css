@@ -1,0 +1,55 @@
+/* LARGE DEVICES */
+
+@media only screen and (max-width: 992px) {
+}
+
+/* SMALL DEVICES */
+@media only screen and (max-width: 576px) {
+	.hero {
+		background-position: center !important;
+	}
+	.hero__header {
+		width: 100%;
+		text-wrap: wrap;
+		font-size: 20px;
+		& > img {
+			width: 100%;
+			object-fit: cover;
+		}
+		& > div {
+			margin-top: 4%;
+		}
+	}
+
+	.hero-card-1 {
+		width: 100%;
+	}
+
+	.hero-card {
+		& .number {
+			font-size: 50px;
+		}
+
+		& .text {
+			font-size: 15px;
+			color: white;
+		}
+	}
+
+	.hero {
+		height: 100vh;
+	}
+
+	.icon-group {
+		width: 100%;
+		font-size: 20px;
+		align-items: center;
+		& img {
+			width: 20%;
+		}
+	}
+
+	.w-50 {
+		width: 100% !important;
+	}
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+	/* font-family: 'Lato', sans-serif; */
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.text-blue {
+	color: #009cad;
+}
+
+.bg-blue {
+	background-color: #009cad;
+}
+
+.text-md {
+	font-size: 18px;
+}
+
+.text-lg {
+	font-size: 22px;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.bg-base-200 {
+	background-color: #f6f3f3;
+}
+
+.bg-base-300 {
+	background-color: #b3b3b3;
+}
+
+.hero {
+	background: url('./images/Rectangle.png');
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero__header {
+	width: 40%;
+	font-size: 45px;
+	text-wrap: nowrap;
+
+	& > img {
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.hero-card {
+	& .number {
+		font-size: 60px;
+	}
+
+	& .text {
+		font-size: 28px;
+		color: white;
+	}
+}
+
+.hero-card-1 {
+	width: 30%;
+}
+
+.icon-group-container {
+	justify-content: space-evenly;
+	row-gap: 35px;
+}
+
+.icon-group {
+	width: 20%;
+	font-size: 20px;
+	align-items: center;
+	& img {
+		width: 20%;
+	}
+}
+
+.image-container {
+	justify-content: space-evenly;
+	row-gap: 20px;
+}
