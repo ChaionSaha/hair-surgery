@@ -38,6 +38,10 @@ p {
 	background-color: black;
 }
 
+.bg-base-100 {
+	background-color: #fff;
+}
+
 .bg-base-200 {
 	background-color: #f6f3f3;
 }
@@ -67,6 +71,7 @@ p {
 .hero-card {
 	& .number {
 		font-size: 60px;
+		text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.9);
 	}
 
 	& .text {
