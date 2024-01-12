@@ -1,6 +1,42 @@
 /* LARGE DEVICES */
+@media only screen and (min-width: 577px) and (max-width: 1024px) {
+	.hero {
+		background-position: center !important;
+	}
+	.hero__header {
+		width: 100%;
+		text-wrap: wrap;
+		font-size: 30px;
+		& > img {
+			width: 70%;
+			object-fit: cover;
+		}
+		& > div {
+			margin-top: 4%;
+		}
+	}
+	.hero-card-container {
+		gap: 10%;
+		flex-direction: row !important;
+	}
 
-@media only screen and (max-width: 992px) {
+	.icon-group-container {
+		flex-direction: row !important;
+	}
+
+	.image-container {
+		flex-direction: row !important;
+		gap: 5%;
+
+		& > img {
+			width: calc(100% / 3);
+		}
+	}
+
+	.side-by-side-container {
+		flex-direction: row !important;
+		gap: 5%;
+	}
 }
 
 /* SMALL DEVICES */
