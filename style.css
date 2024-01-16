@@ -99,3 +99,9 @@ p {
 	justify-content: space-evenly;
 	row-gap: 20px;
 }
+
+.image-container {
+	& > img {
+		width: calc(100% / 3);
+	}
+}
